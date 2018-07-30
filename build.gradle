@@ -1,0 +1,17 @@
+plugins {
+    id 'groovy'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:2.5.1'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+mainClassName = 'dburyak.example.groovy.bug.trait.nonvirtual.Application'

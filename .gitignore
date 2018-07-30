@@ -1,5 +1,17 @@
+### Gradle ###
 .gradle
-/build/
+build/
+
+# Gradle Wrapper #
+# NOTE: wrapper shouldn't be ignored when specific gradle version is needed
+# This is not the case for this project at the moment, so we're using the
+# most fresh version.
+gradle/
+**/gradle/wrapper/**
+gradlew
+gradlew.bat
+grailsw
+grailsw.bat
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -12,3 +24,8 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+### IntelliJ Idea ###
+.ipr
+.idea/
+*.iml
